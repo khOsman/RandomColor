@@ -34,6 +34,10 @@ span{
     align-items: center;
     margin: 0;
     background-color: #f5f5f6;
+   
+}
+
+.padding-left-right{
     padding: 0px 20px;
 }
 
@@ -48,17 +52,14 @@ span{
     text-align: center;
     margin-top: 100px; 
 }
-
 .box{
     padding: 20px 0px;
     background-color: black;
     color: #ffffff;
 }
-
 .round-corner{
     border-radius: 5px;
 }
-
 .btn{
   padding: 10px 40px;  
 }
@@ -86,11 +87,18 @@ footer h6{
     padding: 5px 0;
 }
 
-@media screen and (max-width:450px){
+/*iPhone 5/SE */
+@media screen and (max-width:320px){
+   body{
+    padding: 10px 20px;
+   }
+}
 
+@media screen and (max-width:450px){
+   
     ul li{
         display: inline-block;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .box{
