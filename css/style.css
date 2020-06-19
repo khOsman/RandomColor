@@ -76,7 +76,15 @@ span{
     color: #ffff;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+}
 
+footer h6{
+    border-bottom: 1px solid #ffff;
+    padding: 5px 0;
+}
 
 @media screen and (max-width:450px){
 
